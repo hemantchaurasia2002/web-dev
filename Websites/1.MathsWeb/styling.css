@@ -1,7 +1,10 @@
+#body {
+  
+}
 #container{
   width: 1050px;
   height: 100px;
-  border: 1px solid grey;
+  border: 1px ;
   margin: 0 auto;
 }
 
@@ -133,13 +136,25 @@ $introduction p{
   color: black;
   font-size: 23px;
   font-weight: bold;
-  }
+}
 
-  #leftsidebar ul li{
-    padding-bottom: 6px;
-    padding-left: 10px;
-    list-style-image: url(images/arow.png);
-  }
+$sidebar ul{
+  padding-top: 8px;
+}
+
+#leftsidebar ul li{
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 10px;
+  list-style-image: url(images/arow.png);
+}
+
+#rightsidebar ul li {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+  background: url(images/tick.png) no-repeat left center;
+}
 
 #leftsidebar {
   float: left;
@@ -147,4 +162,11 @@ $introduction p{
 
 #rightsidebar {
   float: right;
+}
+
+.footer {
+  height: 60px;
+  background: linear-gradient(#f1fa51, #fcffcc);
+  padding: 10px 30px;
+  margin-top: 15px;
 }
